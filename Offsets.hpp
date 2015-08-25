@@ -1,18 +1,18 @@
 /**
-	@file Offsets.hpp
-	@brief Declares offsets.
+    @file Offsets.hpp
+    @brief Declares offsets.
 */
 
 #pragma once
 
 namespace JustAMorpher
 {
-	namespace Offsets
-	{
-		namespace Functions
-		{
-			enum : size_t
-			{
+    namespace Offsets
+    {
+        namespace Functions
+        {
+            enum : size_t
+            {
                 CGUnit_C__UpdateDisplayInfo = 0x42EC88,
                 CGUnit_C__OnMountDisplayChanged = 0x42EA73,
                 CGUnit_C__UpdateScale = 0x4253C3,
@@ -28,40 +28,40 @@ namespace JustAMorpher
                 lua_tolstring = 0xD6A70,
                 lua_tonumber = 0xD69B7,
                 lua_pushnumber = 0xD6BB5,
-			};
-		}
+            };
+        }
 
-		namespace Globals
-		{
-			enum : size_t
-			{
+        namespace Globals
+        {
+            enum : size_t
+            {
 
-			};
-		}
+            };
+        }
 
-		namespace Object
-		{
-			enum : size_t
-			{
-				Descriptors = 0x4,
-				
-				GUID = 0x0,
-				Scale = 0x1C,
-			};
-		}
+        namespace Object
+        {
+            enum : size_t
+            {
+                Descriptors = 0x4,
+                
+                GUID = 0x0,
+                Scale = 0x1C,
+            };
+        }
 
-		namespace Unit
-		{
-			enum : size_t
-			{
-				MountDisplayID = 0xBBC,
+        namespace Unit
+        {
+            enum : size_t
+            {
+                MountDisplayID = 0xBBC,
 
-				Race = 0x70,
-				Gender = 0x72,
-				DisplayID = 0x108,
-				NativeDisplayID = 0x10C,
-				ItemDisplayIDs = 0xE50,
-			};
-		}
-	}
+                Race = 0x70,
+                Gender = 0x72,
+                DisplayID = 0x108,
+                NativeDisplayID = 0x10C,
+                ItemDisplayIDs = 0xE50,
+            };
+        }
+    }
 }

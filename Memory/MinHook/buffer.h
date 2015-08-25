@@ -1,5 +1,5 @@
 /* 
- *  MinHook - Minimalistic API Hook Library	
+ *  MinHook - Minimalistic API Hook Library    
  *  Copyright (C) 2009 Tsuda Kageyu. All rights reserved.
  *  
  *  Redistribution and use in source and binary forms, with or without
@@ -29,11 +29,11 @@
 #pragma once
 
 namespace MinHook
-{	
-	void    InitializeBuffer();
-	void    UninitializeBuffer();
-	void*	AllocateCodeBuffer(void* const pOrigin, size_t size);
-	void*	AllocateDataBuffer(void* const pOrigin, size_t size);
-	void	RollbackBuffer();
-	void	CommitBuffer();
+{    
+    void    InitializeBuffer();
+    void    UninitializeBuffer();
+    void*    AllocateCodeBuffer(void* const pOrigin, size_t size);
+    void*    AllocateDataBuffer(void* const pOrigin, size_t size);
+    void    RollbackBuffer();
+    void    CommitBuffer();
 }

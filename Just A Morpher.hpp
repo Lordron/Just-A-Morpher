@@ -1,6 +1,6 @@
 /**
-	@file Just A Morpher.hpp
-	@brief Main header.
+    @file Just A Morpher.hpp
+    @brief Main header.
 */
 
 #pragma once
@@ -9,13 +9,13 @@
 
 namespace JustAMorpher
 {
-	/**
-		@brief The WoW base address.
-	*/
-	extern size_t WoWBase;
+    /**
+        @brief The WoW base address.
+    */
+    extern size_t WoWBase;
 
-	/**
-		@brief The module handle.
-	*/
-	extern HMODULE Module;
+    /**
+        @brief The module handle.
+    */
+    extern HMODULE Module;
 }

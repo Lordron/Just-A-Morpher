@@ -1,5 +1,5 @@
 /* 
- *  MinHook - Minimalistic API Hook Library	
+ *  MinHook - Minimalistic API Hook Library    
  *  Copyright (C) 2009 Tsuda Kageyu. All rights reserved.
  *  
  *  Redistribution and use in source and binary forms, with or without
@@ -34,25 +34,25 @@ using namespace MinHook;
 
 MH_STATUS WINAPI MH_Initialize()
 {
-	return Initialize();
+    return Initialize();
 }
 
 MH_STATUS WINAPI MH_Uninitialize()
 {
-	return Uninitialize();
+    return Uninitialize();
 }
 
 MH_STATUS WINAPI MH_CreateHook(void* pTarget, void* const pDetour, void** ppOriginal)
 {
-	return CreateHook(pTarget, pDetour, ppOriginal);
+    return CreateHook(pTarget, pDetour, ppOriginal);
 }
 
 MH_STATUS WINAPI MH_EnableHook(void* pTarget)
 {
-	return EnableHook(pTarget);
+    return EnableHook(pTarget);
 }
 
 MH_STATUS WINAPI MH_DisableHook(void* pTarget)
 {
-	return DisableHook(pTarget);
+    return DisableHook(pTarget);
 }

@@ -1,6 +1,6 @@
 /**
-	@file Delegates.cpp
-	@brief Defines the delegates class.
+    @file Delegates.cpp
+    @brief Defines the delegates class.
 */
 
 #include "Delegates.hpp"

@@ -1,6 +1,6 @@
 /**
-	@file Main.cpp
-	@brief Defines the entry point.
+    @file Main.cpp
+    @brief Defines the entry point.
 */
 
 #include "Just A Morpher.hpp"
@@ -14,11 +14,11 @@ HMODULE JustAMorpher::Module = nullptr;
 
 int WINAPI DllMain (HMODULE Module, unsigned long, void*)
 {
-	WoWBase = reinterpret_cast<size_t>(GetModuleHandle(nullptr));
-	JustAMorpher::Module = Module;
+    WoWBase = reinterpret_cast<size_t>(GetModuleHandle(nullptr));
+    JustAMorpher::Module = Module;
 
-	Loader;
-
-	DisableThreadLibraryCalls(Module);
-	return 1;
+    Loader;
+    
+    DisableThreadLibraryCalls(Module);
+    return 1;
 }
