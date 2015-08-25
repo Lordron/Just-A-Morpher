@@ -43,8 +43,8 @@ namespace JustAMorpher
         {
             enum : size_t
             {
-                Descriptors = 0x4,
-                
+                Descriptors = 0x04,
+
                 GUID = 0x0,
                 Scale = 0x1C,
             };
@@ -54,13 +54,13 @@ namespace JustAMorpher
         {
             enum : size_t
             {
-                MountDisplayID = 0xBBC,
+                MountDisplayID = 0x11C,
 
-                Race = 0x70,
-                Gender = 0x72,
-                DisplayID = 0x108,
-                NativeDisplayID = 0x10C,
-                ItemDisplayIDs = 0xE50,
+                Race = 0x5C,
+                Gender = 0x78,
+                DisplayID = 0x114,
+                NativeDisplayID = 0x118,
+                ItemDisplayIDs = 0xC04, //or E64
             };
         }
     }
