@@ -13,21 +13,21 @@ namespace JustAMorpher
 		{
 			enum : size_t
 			{
-				CGUnit_C__UpdateDisplayInfo = 0x003F7390,
-				CGUnit_C__OnMountDisplayChanged = 0x003EEC81,
-				CGUnit_C__UpdateScale = 0x003E9696,
+                CGUnit_C__UpdateDisplayInfo = 0x42EC88,
+                CGUnit_C__OnMountDisplayChanged = 0x42EA73,
+                CGUnit_C__UpdateScale = 0x4253C3,
 
-				GetUnitFromName = 0x00465ACC,
-				FrameScript__InvalidPtrCheck = 0x0010EE63,
-				CGGameUI__Initialize = 0x00851B53,
+                GetUnitFromName = 0x4A04DB,
+                FrameScript__InvalidPtrCheck = 0x110C83,
+                CGGameUI__Initialize = 0x8D378C,
 
-				FrameScript__RegisterFunction = 0x00054012,
-				FrameScript__ExecuteBuffer = 0x00054EE6,
-				lua_gettop = 0x000D50FF,
-				luaD_error = 0x000D66A1,
-				lua_tolstring = 0x000D567F,
-				lua_tonumber = 0x000D55C6,
-				lua_pushnumber = 0x000D57C4,
+                FrameScript__RegisterFunction = 0x4F2B7,
+                FrameScript__ExecuteBuffer = 0x50236,
+                lua_gettop = 0xD64F0,
+                luaD_error = 0xD7A92,
+                lua_tolstring = 0xD6A70,
+                lua_tonumber = 0xD69B7,
+                lua_pushnumber = 0xD6BB5,
 			};
 		}
 
